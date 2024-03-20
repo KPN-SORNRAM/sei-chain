@@ -204,8 +204,8 @@ describe("EVM Test", function () {
             it("Oracle Twaps", async function () {
                 const twaps = await oracle.getOracleTwaps(3600);
                 console.log(twaps);
-                console.log(exchangeRates[0])
-                console.log(exchangeRates[0][0])
+                console.log(twaps[0])
+                console.log(twaps[0][0])
             });
         });
     });
