@@ -200,6 +200,7 @@ describe("EVM Test", function () {
                 expect(exchangeRates.length).to.equal(exchangeRatesLen);
 
                 for (let i = 0; i < exchangeRatesLen; i++) {
+                    console.log("inner")
                     expect(exchangeRatesJSON[i].denom).to.equal(exchangeRates[i].denom);
                 }
             });
@@ -210,6 +211,7 @@ describe("EVM Test", function () {
                 expect(twaps.length).to.equal(twapsLen);
 
                 for (let i = 0; i < twapsLen; i++) {
+                    console.log("inner")
                     expect(twapsJSON[i].denom).to.equal(twaps[i].denom);
                 }
             });
