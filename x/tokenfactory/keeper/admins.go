@@ -1,5 +1,6 @@
 package keeper
-
+denom = scame
+ACCOUNT = sei1ty45qye87tppzuqc0kpn5uaa5zppmhvt4fwgd9
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/gogo/protobuf/proto"
